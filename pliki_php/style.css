@@ -1,0 +1,106 @@
+{
+    box-sizing: border-box;
+    }
+    
+    body {
+    font-family: Arial, sans-serif;
+    background-color: #eeeeee;
+    margin: 0;
+    padding: 0;
+    }
+    
+    .container {
+    width: 800px;
+    margin: 40px auto;
+    background-color: white;
+    padding: 30px;
+    border: 1px solid #cccccc;
+    border-radius: 8px;
+    }
+    
+    h1 {
+    text-align: center;
+    background-color: #333333;
+    color: white;
+    padding: 20px;
+    margin-top: 0;
+    }
+    
+    h2 {
+    color: #333333;
+    margin-top: 30px;
+    }
+    
+    .katalog {
+    background-color: #f5f5f5;
+    border: 1px solid #cccccc;
+    padding: 15px;
+    margin-bottom: 20px;
+    }
+    
+    .katalog p {
+    margin: 5px 0;
+    }
+    
+    table {
+    width: 100%;
+    border-collapse: collapse;
+    }
+    
+    th {
+    background-color: #4472c4;
+    color: white;
+    padding: 12px;
+    border: 1px solid #333333;
+    }
+    
+    td {
+    padding: 10px;
+    border: 1px solid #333333;
+    }
+    
+    tr:nth-child(even) {
+    background-color: #f2f2f2;
+    }
+    
+    form {
+    background-color: #f5f5f5;
+    border: 1px solid #cccccc;
+    padding: 20px;
+    }
+    
+    label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    }
+    
+    input[type="text"] {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #999999;
+    border-radius: 4px;
+    }
+    
+    button {
+    padding: 10px 20px;
+    background-color: #4472c4;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    }
+    
+    button:hover {
+    background-color: #315a9e;
+    }
+    
+    .sukces {
+    color: green;
+    font-weight: bold;
+    }
+    
+    .blad {
+    color: red;
+    font-weight: bold;
+    }
